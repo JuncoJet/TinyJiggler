@@ -1,13 +1,13 @@
 #include <windows.h>
 #include <winable.h>
 
+INPUT ip={0};
 char caption[]="TinyJiggler";
 char msg1[]="TinyJiggler is Running. Hold down Ctrl+Q to Exit.";
 char msg2[]="TinyJiggler is Ready to Exit.";
 int main()
 {
-	INPUT ip;
-	memset(&ip,0,sizeof(ip));
+// 	memset(&ip,0,sizeof(ip));
 	ip.mi.dwFlags=MOUSEEVENTF_MOVE;
 // 	ip.type=INPUT_MOUSE;
 // 	ip.mi.dx=0;
