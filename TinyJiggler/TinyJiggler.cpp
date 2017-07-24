@@ -7,7 +7,7 @@ char msg2[]="TinyJiggler is Ready to Exit.";
 int main()
 {
 	INPUT ip;
-	memset(&ip,0,sizeof(ip.mi));
+	memset(&ip,0,sizeof(ip));
 	ip.mi.dwFlags=MOUSEEVENTF_MOVE;
 // 	ip.type=INPUT_MOUSE;
 // 	ip.mi.dx=0;
